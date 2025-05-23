@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_delhi"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:backgroundTint="#7B1FA2"
+    android:radius="12dp"
+    android:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/card_delhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/card_delhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 days ago"
+            android:layout_below="@+id/card_delhi"
+            android:textSize="12sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/card_delhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="39°"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true" />
+
+
+        <TextView
+            android:id="@+id/card_delhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01.05 PM"
+            android:textSize="14sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white" />
+
+
+        <ImageView
+            android:id="@+id/card_delhi"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/imgsol"
+            android:contentDescription="Weather Icon"
+            android:tint="@android:color/white" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
